@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+}
+.Box{
+    background-color: burlywood;
+    width: 100%;
+    height: 150px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+.cv{
+    margin-left: -700px;
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 300%;
+    font-weight: bolder;
+}
+.container-1{
+    display: flex;
+}
+.Box-1{
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 150vh;
+}
+.img{
+    display: flex;
+}
+.image{
+    width: 280px;
+    height: 270px;
+    border-radius: 50%;
+    margin-top: -1081px;
+    margin-left: 49px;
+    border: 5px solid white;
+}
+.name{
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 250%;
+    color: white;
+    margin-top: -800px;
+    margin-left: 51px;
+}
+.bot{
+    text-transform: uppercase;
+    font-size: x-large;
+    color: white;
+    margin-left: 40px;
+}
+.contact{
+  display: flex;
+    
+}
+.con{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: 225px;
+    height: 33px;
+    margin-top: 5%;
+    margin-left: 80px;
+    padding: 5px;
+    padding-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+
+    
+}
+.ball{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -242px;
+    margin-top: 64px;
+}
+.phone{:hover{color: white;}
+    color: rgb(255, 0, 0);
+    margin-left: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.add{
+    width: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call{:hover{color: white;}
+    color: rgb(255, 0, 0);
+    margin-left: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.num{
+    width: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mail{:hover{color: white;}
+    color: rgb(255, 0, 0);
+    margin-left: 80px;
+    margin-top: -33px;
+    cursor: pointer;
+}
+.email{
+    width: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+    margin-top: -44px;
+    display: flex;
+    margin-left: 80px;
+    color: white;
+    
+}
+.line-2{
+    margin-top: 28px;
+    display: flex;
+    margin-left: 80px;
+    color: white;
+}
+.line-3{
+    margin-top: 28px;
+    margin-left: 80px;
+    color: white;
+}
+.P-information{
+    display: flex;
+      
+  }
+  .info{
+      color: rgb(0, 0, 0);
+      background-color: white;
+      width: 225px;
+      height: 33px;
+      margin-top: 5%;
+      margin-left: 80px;
+      padding: 5px;
+      padding-left: 42px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 10px;
+  
+      
+  }
+  .ball-2{
+      background-color: black;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-left: -242px;
+      margin-top: 64px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    text-transform: capitalize;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .content-2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    text-transform: capitalize;
+    margin-left: 140px;
+    margin-top: -113px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .proffesion{
+    display: flex;
+      
+  }
+  .pro{
+      color: rgb(0, 0, 0);
+      background-color: white;
+      width: 225px;
+      height: 33px;
+      margin-top: 5%;
+      margin-left: 80px;
+      padding: 5px;
+      padding-left: 42px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 10px;
+  
+      
+  }
+  .ball-3{
+      background-color: black;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-left: -242px;
+      margin-top: 64px;
+  }
+  .matter{
+    color: white;
+    margin-left: 75px;  
+    margin-top: 5px;
+    font-family: monospace;
+  }
+  .c-o{
+    background-color: burlywood;
+    width: 600px;
+    height: 32px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: -836px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .text{
+  margin-left: 500px;
+  margin-top: 20px;
+  font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .eq{
+    background-color: burlywood;
+    width: 600px;
+    height: 32px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 63px;
+    padding: 5px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .text-2{
+    margin-left: 500px;
+    margin-top: 20px;
+    font-family: monospace;
+      font-size: x-large;
+      font-weight: bold;
+    }
+    .w-e{
+        background-color: burlywood;
+        width: 600px;
+        height: 32px;
+        border-radius: 10px;
+        margin-left: 500px;
+        margin-top: 63px;
+        padding: 5px;
+        font-family: monospace;
+        font-size: x-large;
+        font-weight: bold;
+      }
+      .text-3{
+        margin-left: 500px;
+        margin-top: 20px;
+        font-family: monospace;
+          font-size: x-large;
+          font-weight: bold;
+        }
+      
+        .hi{
+            background-color: burlywood;
+            width: 600px;
+            height: 32px;
+            border-radius: 10px;
+            margin-left: 500px;
+            margin-top: 63px;
+            padding: 5px;
+            font-family: monospace;
+            font-size: x-large;
+            font-weight: bold;
+          }
+          .text-4{
+            margin-left: 500px;
+            margin-top: 20px;
+            font-family: monospace;
+              font-size: x-large;
+              font-weight: bold;
+            }  
+            .ex{
+                background-color: burlywood;
+                width: 600px;
+                height: 32px;
+                border-radius: 10px;
+                margin-left: 500px;
+                margin-top: 63px;
+                padding: 5px;
+                font-family: monospace;
+                font-size: x-large;
+                font-weight: bold;
+                text-transform: uppercase;
+              }
+              .text-5{
+                margin-left: 500px;
+                margin-top: 20px;
+                font-family: monospace;
+                  font-size: x-large;
+                  font-weight: bold;
+                }  
